@@ -2,10 +2,10 @@ Q1. What is the react?
 A1.React is the js library for building userInterface.
 
 Q2.what is the history of React library?
-A2.Fax JS(2010)->React.js(2011 in facebook)->React(open source library)
+A2.Fax JS(2010)->React.js(2011 in facebook)->React(2013open source library)
 
 Q3.what is the reason to create Fax js library?
- A3. To update dynamically Facebook page (2004.02.04)without refresh.
+A3. To update  Facebook page dynamically (2011)without refresh.
 
 Q4.what are the key features of react?
 
