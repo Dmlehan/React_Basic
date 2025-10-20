@@ -19,7 +19,8 @@ Q4.what are the key features of react?
 .Large Ecosysterm
 .Cross-Platform-Compatibility
 
-If you want to get more knowledge React you can find these problems
+If you want to get more knowledge React you can find/explore answers of these problems.
+
 
 Q5.What is the component based architechure ?
 
