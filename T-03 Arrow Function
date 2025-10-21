@@ -1,0 +1,9 @@
+function greet(name){
+    return 'Hello' + name+'!';
+}
+console.log(greet('Lehan'));
+
+// greet('Lehan')
+const.
+
+
