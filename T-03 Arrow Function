@@ -1,9 +1,18 @@
 function greet(name){
-    return 'Hello' + name+'!';
+  return 'Hello' + name + '!';
 }
 console.log(greet('Lehan'));
+const arrow_greet= (name) =>{
+    return'Hello' + name + '! I am an Arrow Function';
+}
 
-// greet('Lehan')
-const.
+// Arrow function
+
+const add2=(a,b)=>{
+    return a+b;
+}
+console.log(arrow_greet('LAmanda'));
 
 
+const add3=(a,b)=>{a+b;}
+console.log(add3(11,15));

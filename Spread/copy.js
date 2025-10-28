@@ -5,4 +5,4 @@ console.log(arr1,arr2);
 const obj1={one:10,two:20,three:30};
 const obj2={...obj1};
 obj1['one']=15;
-console.log(obj2);
+console.log(obj1,obj2);
