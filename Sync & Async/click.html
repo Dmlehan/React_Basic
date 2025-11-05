@@ -7,6 +7,15 @@
 </head>
 <body>
     <button id="btn">Click</button>
-    
 </body>
+ <script>
+    console.log('Start');
+    document.getElementById(btn).addEventListner('click',()=>{
+        console.log('Button clicked');
+    });
+    for(i=0;i<10000;i++){
+        console.log('Button Clicked');
+    }
+    console.log('End')
+ </script>
 </html>
