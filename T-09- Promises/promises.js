@@ -1,9 +1,13 @@
 function takeShower(){
   return new Promise((resolve,reject)=>{
          setTimeout(()=>{
+            console.log('you take a shower')
             const shower=true;
-                console.log('you take a shower')
-                resolve('You take shower');
+            if(shower){
+            resolve('You take shower');
+            }else{
+             reject('you didnt take shower');
+            }
          },3000);
   });
 }
@@ -12,7 +16,13 @@ function doHomework(){
   return new Promise((resolve,reject)=>{
      setTimeout(()=>{
       console.log('You do your homework');
-      resolve('you completed your homework');
+      const homeWork=true;
+      if(true){
+           resolve('you completed your homework');
+      }else{
+           reject('you didnt complete homework');
+      }
+    
      },2000);
   });
 }
@@ -20,7 +30,12 @@ function play(){
        return new Promise((resolve,reject)=>{
           setTimeout(()=>{
              console.log('you play what you like');
+             const play=true;
+             if(play){
              resolve('you played what you like');
+             }else{
+             reject('you didnt play');
+             }
           },1000); 
        });
 }
