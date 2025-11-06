@@ -16,7 +16,7 @@ function doHomework(){
   return new Promise((resolve,reject)=>{
      setTimeout(()=>{
       console.log('You do your homework');
-      const homeWork=false;
+      const homeWork=true;
       if(homeWork){
            resolve('you completed your homework');
       }else{
@@ -33,6 +33,7 @@ function play(){
              const play=true;
              if(play){
              resolve('you played what you like');
+
              }else{
              reject('you didnt play');
              }
@@ -42,7 +43,10 @@ function play(){
 
 async function doAll() {
     try{
-     await takeShower();
+        // finding return value  when using async and await
+
+     const result=await takeShower();
+     console.log(result);
      await doHomework();
      await play();
     }catch(error){
