@@ -52,4 +52,6 @@ takeShower()
 .then((result)=>{
    console.log(result);
   console.log('All done');
+}).catch((error)=>{
+  console.log(error);
 });
