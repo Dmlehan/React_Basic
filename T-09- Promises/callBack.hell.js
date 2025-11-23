@@ -37,7 +37,7 @@ func1(()=>{
     func2(()=>{
         func3(()=>{
             func4(()=>{
-                func5(()={
+                func5(()=>{
                     console.log('All done');
                 });
             });

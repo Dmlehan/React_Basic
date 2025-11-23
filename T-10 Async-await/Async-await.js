@@ -30,7 +30,7 @@ function play(){
        return new Promise((resolve,reject)=>{
           setTimeout(()=>{
              console.log('you play what you like');
-             const play=true;
+             const play = true;
              if(play){
              resolve('you played what you like');
 
