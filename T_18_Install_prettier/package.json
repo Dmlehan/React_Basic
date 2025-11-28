@@ -1,0 +1,9 @@
+{
+  "name": "T_18_Install_prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.7.1"
+  }
+}
