@@ -1,0 +1,11 @@
+{
+  "name": "T_18_Install_prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "8.56",
+    "eslint-config-prettier": "8.10",
+    "prettier": "^3.7.1"
+  }
+}
